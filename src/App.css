@@ -25,7 +25,7 @@ body {
 h1 {
   background: linear-gradient(45deg, var(--accent-color), #ff6b6b);
   -webkit-background-clip: text;
-  color: red;
+  color: transparent;
   font-size: 3.5rem;
   margin-bottom: 2.5rem;
   text-transform: uppercase;
@@ -61,7 +61,7 @@ button {
   width: 150px;
   height: 60px;
   background: var(--accent-color);
-  color: yellow;
+  color: white;
   border: none;
   cursor: pointer;
   font-weight: bold;
