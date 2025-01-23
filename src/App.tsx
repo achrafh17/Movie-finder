@@ -30,7 +30,7 @@ const App = () => {
 
   const searchmovie = () => {
     const newmovie = movie.filter((item) =>
-      item.title.toLowerCase().includes(search.current.value)
+      item.title.toLowerCase().includes(search.current.value.toLowerCase())
     );
     setFilteredMovie(newmovie);
     console.log(movie);
