@@ -61,7 +61,7 @@ button {
   width: 150px;
   height: 60px;
   background: var(--accent-color);
-  color: white;
+  color: yellow;
   border: none;
   cursor: pointer;
   font-weight: bold;
